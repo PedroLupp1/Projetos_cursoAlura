@@ -1,0 +1,101 @@
+header{
+	background: #CD5C5C;
+	padding:  20px 0;
+}
+
+#logo {
+	width: 100%;
+	
+}
+
+
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
+}
+nav {
+	position:relative;
+	top: 110;
+	right: 0;
+
+}
+
+nav li {
+
+	display: inline ;
+	margin: 0 0 0 20px;
+}
+
+
+
+nav a {
+
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FFD700;
+	text-decoration: underline;
+}
+
+.titlePrincipal{
+	padding-left: 20px;
+}
+
+.titleCenter {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px;
+}
+
+em strong {
+	color: #FF0000; 
+}
+
+.itens {
+	font-style: italic;
+}
+
+.assista {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 10%;
+}
+
+.imagensAnimes {
+	width: 30%;
+	padding-bottom: 90px;
+} 
+
+footer {
+	text-align: center;
+	background: url("fundo-preto.jpg");
+	padding: 40px 0;
+}
+
+footer img {
+	height: 250px;
+}
+
+.copyright{
+	color: #FFFFFF;
+	font-size: 14px;
+	margin: 35px;
+}
