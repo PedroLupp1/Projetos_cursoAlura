@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html>
@@ -76,3 +77,83 @@
 	</body>
 
 </html>
+=======
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>AnimesPh-Suporte</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style-suporte.css">
+		<link href="https://fonts.googleapis.com/css2?family=Cantata+One&display=swap" rel="stylesheet">
+		
+	</head>
+
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img id="logo" src="logo.jpg" alt="Logo AnimesPH" class="imagem"></h1>
+				
+				<nav>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="links.html">Animes</a></li>
+							<li><a href="suporte.html">Suporte</a></li>
+						</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main class="main-suporte">
+			<form>
+				<label for="nome">Nome</label>
+				<input type="text" id="nome" class="input-padrao" required placeholder="EX: Slvio Santos">
+
+				<label for="email">Insira seu email</label>
+				<input type="email" id="Insira seu email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label>Qual a sua reclamação?</label>
+				<input type="text" id="Qual sua reclamação?" class="input-padrao" required placeholder="Especifique seu problema">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="60" rows="10" id="mensagem" class="input-padrao" required placeholder="Deixe uma mensagem :)"></textarea>
+
+				<fieldset>				
+					<legend>Coloque sua experiência com o site:</legend>
+					<label for="radio-Bom"><input type="radio" name="avaliacao" value="Bom" id="radio-Bom"> Boa</label>
+					
+
+					<label for="radio-Médio"><input type="radio" name="avaliacao" value="Médio" id="radio-Médio"> Média</label>
+					
+
+					<label for="radio-Ruim"><input type="radio" name="avaliacao" value="Ruim" id="radio-Ruim"> Ruim</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Você recomendaria esse site para um amigo?</legend>
+					<select>
+						<option>Sim</option>
+						<option>Talvez</option>
+						<option>Não</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber uma mensagem no email? :)</label>
+
+				<input type="submit" class="enviar">
+			</form>
+
+		
+		</main>
+
+
+		<footer>
+			<img src="rodape.png" alt="Logo AnimesPH">
+			<p class="copyright">&copy; Copyright AnimesPH - 2022</p>
+		</footer>
+	</body>
+
+</html>
+
