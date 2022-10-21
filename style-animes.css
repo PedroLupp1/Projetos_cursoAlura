@@ -1,0 +1,171 @@
+body{
+	font-family: 'Cantata One', serif;
+	background: linear-gradient(#FFFFFF, #FEFEFE,#CD5C5C, darkred, black );
+}
+
+header {
+	background: #CD5C5C;
+	padding:  20px 0; 
+}
+
+.imagem {
+	width: 100%;
+}
+
+
+}
+
+nav {
+	position:absolute;
+	top: 110;
+	right: 0;
+
+}
+
+nav li {
+
+	display: inline ;
+	margin: 0 0 0 20px;
+}
+
+
+
+nav a {
+
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FFD700;
+	text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	background: #CD5C5C;
+	margin: 345px 1%;
+	padding: 20px 10px;
+	box-sizing:border-box ;
+	border: 4px solid #000000;
+	border-radius: 20px;
+}
+
+.produtos li:hover {
+	border-color: #FFD700;
+}
+
+.produtos li:active{
+	border-color: #B22222;
+}
+
+.produtos li:hover img {
+	height: 240px;
+}
+
+.produtos li:hover h2 {
+	font-size: 23px;
+}
+
+.produtos h2 {
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+.produtos a {
+	color:  #000000;
+}
+
+
+
+main img {
+	height: 200px;
+	
+}
+
+footer {
+	text-align: center;
+	background: url("fundo-preto.jpg");
+	padding: 40px 0;
+
+}
+
+footer img {
+	height: 350px;
+}
+
+.copyright{
+	color: #FFFFFF;
+	font-size: 14px;
+	margin: 35px;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+
+.main-suporte{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.main-animes {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+	padding-bottom: 10px;
+}
+
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 20px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 10px 0;
+	color: #FFFFFF;
+	background: #CD5C5C;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 6px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: gold;
+	transform: scale(1.2);
+	
+}
